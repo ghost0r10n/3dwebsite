@@ -1,0 +1,188 @@
+@media only screen and (max-width: 600px) {
+    body {
+        padding-bottom: 50px;
+    }
+    #topNav {
+        width: 100%;
+    }
+    #buy-button {
+        display: none;
+    }
+    #menu {
+        display: block;
+        margin: 0 0;
+        background-color: white;
+        height: 30px;
+        margin-right: 20px;
+        padding-right: 40px;
+        padding-left: 40px;
+        border-radius: 100px;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+        color: #1967d2;
+    }
+    #bottom-contact {
+        width: 100%;
+        height: 50px;
+        background-color: white;
+        line-height: 20px;
+        display: initial;
+        position: fixed;
+        z-index: 9999;
+        bottom: 0;
+        box-shadow: 0px -2px 3px rgba(50, 50, 50, 0.2);
+    }
+    #bottom-contact>a {
+        margin: 5px;
+        float: right;
+        background-color: #1967d2;
+        color: white;
+        padding: 10px;
+    }
+    .centralMenuItem {
+        display: none;
+    }
+    #first-section {
+        width: 100%;
+    }
+    #first-section>h1 {
+        color: #423F3F;
+        font-size: 3rem;
+    }
+    .sections {
+        width: 100vw;
+    }
+    #second-section>h1 {
+        color: #423F3F;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .innerbox-second {
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        align-items: center;
+        font-size: 14px;
+    }
+    #outerbox-second {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .innerbox-second>p {
+        line-height: 1.5rem;
+        display: none;
+    }
+    #third-section {
+        height: 70vh;
+    }
+    #innerbox-third {
+        padding: 0px;
+        padding-top: 350px;
+        margin-left: 0px;
+        text-align: center;
+        width: 100%;
+        background-color: transparent;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
+    }
+    #innerbox-fourth-first {
+        height: 0vh;
+        width: 100vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: 0.7s height;
+    }
+    #innerbox-fourth-first-inner {
+        height: 0vh;
+        width: 100vw;
+        background-color: red;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: 0.7s height;
+    }
+    #innerbox-fourth-second {
+        margin-top: 200px;
+        text-align: center;
+        justify-content: center;
+        width: 100vw;
+        height: 20vh;
+    }
+    #innerbox-fourth-fourth {
+        height: 0vh;
+        width: 100vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: 0.7s height;
+        margin-top: 150px;
+    }
+    #innerbox-fourth-third {
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 0px;
+        height: 0vh;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100vw;
+        transition: 0.7s height;
+    }
+    #innerbox-fourth-third-inner {
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 0vh;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100vw;
+        transition: 0.7s height;
+    }
+    #fourth-section {
+        margin-top: 0px;
+        min-width: 100vw;
+        display: initial;
+    }
+    #fifth-section {
+        margin-top: 62vh;
+        min-width: 100vw;
+        display: inherit;
+    }
+    #innerbox-fourth-fifth {
+        margin-top: 200px;
+        text-align: center;
+        justify-content: center;
+        width: 100vw;
+        height: 0vh;
+    }
+    #sixth-innerbox {
+        display: initial;
+    }
+    #sixth-text {
+        text-align: left;
+        padding: 70px;
+        width: 100vw;
+    }
+    #sixth-section>h1 {
+        margin: 0 0;
+        padding-top: 10px;
+        font-size: 1.5rem;
+        color: #423F3F;
+    }
+    #sixth-text {
+        text-align: left;
+        padding: 20px;
+    }
+    #image-left {
+        width: 90vw;
+        height: 0px;
+        margin-top: 50px;
+        background-color: red;
+        transition: 0.7s height;
+    }
+    #image-left-inner {
+        background-size: cover;
+        width: 90vw;
+        height: 0px;
+        background-image: url(https://lh3.googleusercontent.com/1vpPBVbV5dvZknFHhJ8qTSs-3JuG1Vm5tdrAVtv1jPplCR7_7_EM8wqykRPg2jwd0ut7=w920);
+        background-color: red;
+        transition: 1.2s height;
+    }
+}
